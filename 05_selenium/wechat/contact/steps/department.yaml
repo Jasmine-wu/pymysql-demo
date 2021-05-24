@@ -1,0 +1,29 @@
+create:
+  data: $data
+  json: $json
+  method: POST
+  params:
+    access_token: $token
+  url: https://qyapi.weixin.qq.com/cgi-bin/department/create?
+
+update:
+  data: $data
+  json: $json
+  method: POST
+  params:
+    access_token: $token
+  url: https://qyapi.weixin.qq.com/cgi-bin/department/update?
+
+delete:
+  method: GET
+  params:
+    access_token: $token
+    id: $id
+  url: https://qyapi.weixin.qq.com/cgi-bin/department/delete?
+
+list:
+  method: GET
+  params:
+    access_token: $token
+    id: $id
+  url: https://qyapi.weixin.qq.com/cgi-bin/department/list?
