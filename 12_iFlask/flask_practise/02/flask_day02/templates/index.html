@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+{{ aa }}
+<br>
+{{ bb }}
+<br>
+
+{{ cc() }}
+<br>
+{{ ll.1 }}
+<br>
+{{ ll[2] }}
+{% for i in ll %}
+    {{ i }}
+{% endfor %}
+
+<hr>
+
+{% if name %}
+    <h1>Hello {{ name }}!</h1>
+{% else %}
+    <h1>Hello World!</h1>
+{% endif %}
+
+{{ ll|length }}
+
+<hr>
+
+{{ sss|safe }}
+</body>
+</html>
