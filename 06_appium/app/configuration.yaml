@@ -1,7 +1,0 @@
-android1:
-  udid: H9R7N18323001824
-  platformVersion: "9"
-
-android2:
-  udid: emulator-5554
-  platformVersion: "6.0"
